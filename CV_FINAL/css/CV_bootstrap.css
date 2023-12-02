@@ -1,0 +1,81 @@
+:root{
+    --principal1:#F1F0E4;
+    --principal2:#CB3E0F;
+    --principal3:#FFC000;
+    
+    --secundario1:#E4741D;
+    --secundario:#A3BF95;
+}
+
+h1 { 
+    text-align: center;
+    font-size: 40px;
+    color: var(--principal2);
+    font-family:'Krub',sans-serif;
+}
+
+h2,h3 {
+    color: var(--principal2);
+    text-align: center;
+    font-size: 30px;
+    font-family:'Krub',sans-serif;
+}
+
+body {
+    background-color: var(--principal2);
+}
+
+img {
+    width:20%;
+}
+
+ul {
+    color: var(--secundario2);
+}
+
+p,li {
+    text-align: center;
+}
+
+.header{
+    border: 1px solid var(--principal2);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar{
+    border: 1px solid var(--principal2);
+    padding: 20px;
+    font-size: 30px;
+    text-align:center;
+}
+
+
+.contenido {
+    border: 1px solid var(--principal2);
+    padding: 20px;
+    font-size: 20px;
+    text-align:center;
+}
+
+.aside {
+    border: 1px solid var(--principal2);
+    padding: 20px;
+    font-size: 20px;
+    text-align:center;
+}
+
+.formulario{
+    border: 1px solid var(--principal2);
+    padding: 20px;
+    font-size: 30px;
+    text-align:center;
+}
+
+.footer{
+    border: 1px solid var(--principal2);
+    padding: 20px;
+    font-size: 30px;
+    text-align:right;
+}
